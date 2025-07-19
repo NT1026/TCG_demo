@@ -22,18 +22,18 @@
 ```python
 # 使者卡
 {
-	"type": "avatar",
-	"name": "熾炎之子",
+    "type": "avatar",
+    "name": "熾炎之子",
     "hp": 90,
     "element": "flame",
     "skills": [
-		{"name": "爆焰擊", "damage": 30, "cost": {"flame": 1}},
+        {"name": "爆焰擊", "damage": 30, "cost": {"flame": 1}},
         {"name": "焚野爆破", "damage": 50, "cost": {"flame": 2, "wild": 1}}
     ]
 }
 
 # 能源卡
-{ "type": "core", "element": "flame" },
+{ "type": "core", "element": "flame" }
 ```
 
 
