@@ -1,0 +1,92 @@
+[
+    {
+        "type": "avatar",
+        "name": "熾炎之子",
+        "hp": 90,
+        "element": "flame",
+        "skills": [
+            { "name": "爆焰擊", "damage": 30, "cost": { "flame": 1 } },
+            {
+                "name": "焚野爆破",
+                "damage": 50,
+                "cost": { "flame": 2, "wild": 1 }
+            }
+        ]
+    },
+    {
+        "type": "avatar",
+        "name": "湧潮術士",
+        "hp": 80,
+        "element": "aqua",
+        "skills": [
+            { "name": "水彈", "damage": 20, "cost": { "aqua": 1 } },
+            { "name": "大海波濤", "damage": 40, "cost": { "aqua": 2 } }
+        ]
+    },
+    {
+        "type": "avatar",
+        "name": "岩甲巨獸",
+        "hp": 100,
+        "element": "terra",
+        "skills": [
+            { "name": "滾石衝擊", "damage": 25, "cost": { "terra": 1 } },
+            {
+                "name": "地裂重擊",
+                "damage": 50,
+                "cost": { "terra": 2, "wild": 1 }
+            }
+        ]
+    },
+    {
+        "type": "avatar",
+        "name": "疾風行者",
+        "hp": 70,
+        "element": "storm",
+        "skills": [
+            { "name": "風刃", "damage": 30, "cost": { "storm": 1 } },
+            { "name": "風暴漩渦", "damage": 45, "cost": { "storm": 2 } }
+        ]
+    },
+    {
+        "type": "avatar",
+        "name": "熔炎戰士",
+        "hp": 85,
+        "element": "flame",
+        "skills": [
+            { "name": "火焰斬", "damage": 20, "cost": { "flame": 1 } },
+            {
+                "name": "烈焰突襲",
+                "damage": 35,
+                "cost": { "flame": 1, "wild": 1 }
+            }
+        ]
+    },
+    {
+        "type": "avatar",
+        "name": "水靈召喚師",
+        "hp": 75,
+        "element": "aqua",
+        "skills": [
+            { "name": "水槍", "damage": 15, "cost": { "aqua": 1 } },
+            {
+                "name": "泡沫旋擊",
+                "damage": 35,
+                "cost": { "aqua": 2, "wild": 1 }
+            }
+        ]
+    },
+    { "type": "core", "element": "flame" },
+    { "type": "core", "element": "flame" },
+    { "type": "core", "element": "flame" },
+    { "type": "core", "element": "flame" },
+    { "type": "core", "element": "aqua" },
+    { "type": "core", "element": "aqua" },
+    { "type": "core", "element": "aqua" },
+    { "type": "core", "element": "aqua" },
+    { "type": "core", "element": "terra" },
+    { "type": "core", "element": "terra" },
+    { "type": "core", "element": "terra" },
+    { "type": "core", "element": "storm" },
+    { "type": "core", "element": "storm" },
+    { "type": "core", "element": "storm" }
+]
