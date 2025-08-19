@@ -20,9 +20,6 @@ def load_deck_from_file(path):
             )
         elif card["type"] == "core":
             deck.append(CoreCard(element=card["element"]))
-        elif card["type"] == "rune":
-            # TODO
-            pass
         else:
             print(f"未知卡片類型：{card}")
     return deck

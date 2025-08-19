@@ -1,8 +1,5 @@
-from cards.base_card import Card
-
-
 # 能源卡類別，繼承自基本卡片類別
-class CoreCard(Card):
+class CoreCard:
     def __init__(self, element):
         """
         能源卡初始化。
@@ -14,7 +11,8 @@ class CoreCard(Card):
             "storm": "風",
             "wild": "泛用",
         }
-        super().__init__(f"{element_names[element]} 核心", "core")
+        self.name = f"{element_names[element]} 核心"
+        self.card_type = "core"
         self.element = (
             element  # 能源類型：火 flame、水 aqua、土 terra、風 storm、泛用 wild
         )

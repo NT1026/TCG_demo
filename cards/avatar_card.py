@@ -1,6 +1,3 @@
-from cards.base_card import Card
-
-
 # 技能類別
 class Skill:
     def __init__(self, name, damage, cost):
@@ -18,13 +15,13 @@ class Skill:
         return f"{self.name} - 傷害: {self.damage} / 所需能量: {self.cost}"
 
 
-# 使者卡類別，繼承自基本卡片類別
-class AvatarCard(Card):
+class AvatarCard:
     def __init__(self, name, hp, element, skills):
         """
         使者卡初始化。
         """
-        super().__init__(name, "avatar")  # 使者卡卡片名稱
+        self.name = name # 使者卡名稱
+        self.card_type = "avatar"
         self.hp = hp  # 使者卡當前生命值
         self.max_hp = hp  # 使者卡最大生命值
         self.element = element  # 使者卡元素類型
